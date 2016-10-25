@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "GoogleLogin", "GoogleLogin/**/*.swift"
    s.frameworks = "UIKit", "Foundation"
+  # s.library = "Google/GoogleSignIn"
    s.requires_arc = true
 
 end
